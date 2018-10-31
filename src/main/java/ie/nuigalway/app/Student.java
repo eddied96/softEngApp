@@ -34,8 +34,11 @@ public class Student {
     
     }
     
-    public void addToCourse(Course course){
+    public void addCourse(Course course){
         courses.add(course);
+    }
+    public void addModule(Module module){
+        modules.add(module);
     }
     private int findAge() {
         LocalDate currentDate = LocalDate.now();
