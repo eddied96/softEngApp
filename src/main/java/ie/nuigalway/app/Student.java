@@ -23,7 +23,7 @@ public class Student {
     private ArrayList<Course> courses;
     private ArrayList<Module> modules;
     
-    public Student(String name, LocalDate dob, String course, String module){
+    public Student(String name, LocalDate dob){
     this.name = name;
     this.dob=dob;
     this.age = findAge();
